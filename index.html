@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark's Cripto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <h1>Stark's Cripto</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Aqui terá informações sobre o que são as criptomoedas -->
+        <div class="principal">
+            <div class="titulo">
+                <h1>Criptomoedas, o que são?</h1>
+            </div>
+
+            <div class="texto">
+                <p>
+                    Criptomoedas são moedas digitais que usam a criptografia para validar as transações financeiras, portanto é um tipo de dinheiro que existe somente no âmbito virtual. Essa característica também faz com que esses ativos sejam descentralizados. Ou seja, não existe regulamentação por nenhum órgão ou país específico.
+                    <br>
+                    No mundo dos investimentos, os criptoativos consistem em um meio de troca entre investidores que operam no mercado de trading. Todas as operações são seguras e transparentes porque estão vinculadas à blockchain.
+                    <br>
+                    Essa tecnologia é uma cadeia de blocos que armazena todas as informações de cada transação realizada. Dessa forma, há o registro de todas as operações financeiras, corretores, investidores e outros dados relevantes.
+                </p>
+            </div>
+
+            <div class="botao">
+                <a href="https://www.nordinvestimentos.com.br/blog/o-que-sao-criptomoedas/#:~:text=As%20criptomoedas%20funcionam%20como%20ativos,ocorrem%20totalmente%20no%20ambiente%20virtual.">Clique aqui para saber mais</a>
+            </div>
+        </div>
+
+        <!-- Aqui terá as criptomoedas e uma barra de filtragem -->
+        <div class="cripto">
+            <!-- Barra de filtragem -->
+            <div class="filtragem">
+                <div class="barra-pesquisa">
+                    <label for="busca">Buscar</label>
+                    <input type="search" name="busca">
+                </div>
+
+                <select class="barra-filtro">
+                    <option>Ordenar cards</option>
+                    <option>Menor valor</option>
+                    <option>Maior valor</option>
+                    <option>Ordem alfabética</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div class="cards-cripto">
+                <!-- Cards com as criptomoedas -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/Bitcoin-Logo.wine.svg" alt="logo da criptomoeda">
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>Bitcoin</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>É a primeira moeda digital descentralizada do mundo. Criada em 2008, surgiu em meio à crise financeira global da época. Atualmente, é o criptoativo mais importante e com o maior valor de mercado.</p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Bitcoin (BTC)</label>
+                                </div>
+                                <span>R$127218.85</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 04 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/Ethereum-Logo.wine.svg" alt="logo da criptomoeda">
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>Ethereum</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>Consiste na segunda principal criptomoeda do mundo. Apesar disso, seu protocolo também pode ser usado para gerar tokens com diferentes finalidades.</p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Ethereum (ETH)</label>
+                                </div>
+                                <span>R$8103.77</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 05 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/solana-sol-seeklogo.com.svg" alt="logo da criptomoeda">
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>Solana</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>Esse é um projeto de código aberto que permite à tecnologia blockchain fornecer soluções financeiras descentralizadas a fim de criar apps com essa mesma característica.
+                            </p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Solana (SOL)</label>
+                                </div>
+                                <span>R$100.46</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 05 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/Binance-Logo.wine.svg" alt="logo da criptomoeda">
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>BNB</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>
+                                É a moeda da bolsa global de criptomoedas Binance. Essa é a maior exchange de criptomoedas do mundo no que se refere ao volume de negociações.
+                            </p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Binance Coin (BNB)</label>
+                                </div>
+                                <span>R$1064.79</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 05 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 82.6 82.6"><title>litecoin-ltc-logo</title><circle cx="41.3" cy="41.3" r="36.83" style="fill:#fff"/><path d="M41.3,0A41.3,41.3,0,1,0,82.6,41.3h0A41.18,41.18,0,0,0,41.54,0ZM42,42.7,37.7,57.2h23a1.16,1.16,0,0,1,1.2,1.12v.38l-2,6.9a1.49,1.49,0,0,1-1.5,1.1H23.2l5.9-20.1-6.6,2L24,44l6.6-2,8.3-28.2a1.51,1.51,0,0,1,1.5-1.1h8.9a1.16,1.16,0,0,1,1.2,1.12v.38L43.5,38l6.6-2-1.4,4.8Z" style="fill:#345d9d"/></svg>
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>Litecoin</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>
+                                É uma moeda digital que replica as características do Bitcoin, mas oferece alguns benefícios. Por exemplo, menor tempo de transação, menor taxa de bloqueio e mais acessibilidade.
+                            </p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Litecoin (LTC)</label>
+                                </div>
+                                <span>R$313.05</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 05 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.4 416.8"><defs><style>.cls-1{fill:#008de4;}</style></defs><title>d</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M336.25,0H149.35l-15.5,86.6,168.7.2c83.1,0,107.6,30.2,106.9,80.2-.4,25.6-11.5,69-16.3,83.1-12.8,37.5-39.1,80.2-137.7,80.1l-164-.1L76,416.8h186.5c65.8,0,93.7-7.7,123.4-21.3,65.7-30.5,104.8-95.3,120.5-179.9C529.65,89.6,500.65,0,336.25,0"/><path class="cls-1" d="M68.7,164.9c-49,0-56,31.9-60.6,51.2C2,241.3,0,251.6,0,251.6H191.4c49,0,56-31.9,60.6-51.2,6.1-25.2,8.1-35.5,8.1-35.5Z"/></g></g></svg>
+                    </div>
+                    <hr>
+                    <div class="card-content">
+                        <div class="card-nome">
+                            <h2>Dash</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>
+                                Com essa moeda, a confirmação das operações é praticamente instantânea. Além disso, as transações são anônimas.
+                            </p>
+                        </div>
+                        <div class="card-preco">
+                            <div class="cotacao">
+                                <div class="inp">
+                                    <input
+                                    type="number"
+                                    id="qtdMoeda"
+                                    value="1"
+                                    >
+                                    <label for="qtdMoeda">Dash (DASH)</label>
+                                </div>
+                                <span>R$127.82</span>
+                            </div>
+                            <p class="obs">OBS: Cotação de 05 de setembro de 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h1>Stark's Cripto</h1>
+    </footer>
+
+    <script src="assets/js/cotacao.js"></script>
+    <script src="assets/js/filtragem.js"></script>
+</body>
+</html>
